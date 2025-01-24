@@ -66,7 +66,7 @@ print(chat_history)
 #4
 #Save chat history on firestore
 
-PROJECT_ID = load_dotenv.getenv(firebase_project_ID)
+PROJECT_ID = "langchain-pilot-ff684"
 SESSION_ID = "user_session_new"
 COLLECTION_NAME = "chat_history"
 
