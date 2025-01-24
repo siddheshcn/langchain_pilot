@@ -6,7 +6,7 @@ authors = [
     {name = "Sid Chavan",email = "contact@telosium.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13,<4.0"
+requires-python = "<3.14,>=3.9"
 dependencies = [
     "langchain (>=0.3.15,<0.4.0)",
     "python-dotenv (>=1.0.1,<2.0.0)",
@@ -22,7 +22,9 @@ dependencies = [
     "langchainhub (>=0.1.21,<0.2.0)",
     "wikipedia (>=1.4.0,<2.0.0)",
     "tavily-python (>=0.5.0,<0.6.0)",
-    "langchain-anthropic (>=0.3.3,<0.4.0)"
+    "langchain-anthropic (>=0.3.3,<0.4.0)",
+    "youtube-transcript-api (>=0.6.3,<0.7.0)",
+    "pytube (>=15.0.0,<16.0.0)"
 ]
 
 
